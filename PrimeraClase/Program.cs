@@ -23,6 +23,20 @@ namespace PrimeraClase
             Console.WriteLine("Mi nombre es " + nombre);
             Console.WriteLine("Mi edad es " + edad);
             Console.WriteLine("Mi sueldo es " + sueldo);
+
+            if (edad>18)
+            {
+                Console.WriteLine("Es Mayor De Edad");
+            }
+            else
+            {
+                Console.WriteLine("Es Menor De Edad");
+            }
+
+
+
+
+
             
             //Pausa
             Console.Read();
