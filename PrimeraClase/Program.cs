@@ -16,6 +16,10 @@ namespace PrimeraClase
             string nombre = "Hugo";
             double sueldo = 10000.0;
             bool EsMayorEdad = true;
+            string seccion = "J";
+
+
+
             //DateTime FechaNacimiento = "05-04-1988";
             //Char existe pero no lo vamos usar
 
@@ -34,10 +38,30 @@ namespace PrimeraClase
             }
 
 
+            switch (seccion)
+            {
+                case "A":
+                    Console.WriteLine("Turno Mañana");
+                    break;
+                case "B":
+                    Console.WriteLine("Turno Tarde");
+                    break;
+                case "C":
+                    Console.WriteLine("Turno Noche");
+                    break;
+
+                default:
+                    Console.WriteLine("No encuentro el turno");
+                    break;
+            }
 
 
 
-            
+
+
+
+
+
             //Pausa
             Console.Read();
 
